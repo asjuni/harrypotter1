@@ -8,7 +8,6 @@ import lombok.*;
 
 public class Niveau1 {
 
-    public static int wizardPower;
 
     public void combattre() {
         Scanner sc = new Scanner(System.in);
@@ -16,9 +15,8 @@ public class Niveau1 {
         // initialization of Wizard and troll's characteristics
         int wizardPower = 100;
         int trollPower = 10;
-        int wizardLife = wizardPower;
         // combat loop
-        while (wizardLife > 0 && trollPower > 0) {
+        while (wizardPower > 0 && trollPower > 0) {
             System.out.println(" \n It's the Wizard's turn.\n" +
                     " you have three spells to inflict big damage to the troll \n" +
                     "1. Wingardium Leviosa \n" +
@@ -39,26 +37,26 @@ public class Niveau1 {
             else {
                 int damage = (int)(Math.random() * 10) + 1;
                 System.out.println("The troll attacks the Wizard and inflicts " + damage + " points of damage. \n\n");
-                wizardLife -= damage;
+                wizardPower -= damage;
             }
 
             // if the troll is still alive, it attacks in turn
             if (trollPower > 0) {
                 int damage = (int)(Math.random() * 6) + 1;
                 System.out.println("It's the troll's turn. It attacks the Wizard and inflicts " + damage + " points of damage.\n\n");
-                wizardLife -= damage;
+                wizardPower -= damage;
             }
 
             // display of remaining life points
             System.out.println("Remaining life points:\n");
-            System.out.println("Wizard: " + wizardLife + "\n");
+            System.out.println("Wizard: " +  wizardPower+ "\n");
             System.out.println("Troll: " + trollPower +"\n");
             System.out.println();
             System.out.println((char) 27 + "[33m" + "\n\n CONGRATULATIONS YOU HAVE PASSED THIS LEVEL. PRESS ENTER TO PROCEED TO THE NEXT LEVEL \n\n " + (char) 27 + "[0m");
         }
 
         // end of combat
-        if (wizardLife <= 0) {
+        if (wizardPower <= 0) {
             System.out.println(" \n\n The troll has defeated the Wizard! \n");
         }
     }

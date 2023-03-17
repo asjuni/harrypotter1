@@ -10,10 +10,10 @@ public class Niveau2 {
         Scanner sc = new Scanner(System.in);
         boolean gagne = false;
 // Initialisation de la vie du wizard en utilisant la valeur de la variable du niveau 1
-        int wizardPower = Niveau1.wizardPower;
+        int wizardPower = 100;
 
         // initialisation des caractéristiques du basilic
-        int basilicPower = 12;
+        int basilicPower = 20;
     System.out.println("Bienvenue au combat contre le basilic !");
             System.out.print("Dans quelle maison êtes-vous ? \n\n");
 
@@ -67,14 +67,16 @@ public class Niveau2 {
             }
             // sinon, le basilic attaque et inflige des dégâts au joueur
             else {
-            int degats = (int)(Math.random() * 5) + 1;
+            int degats = (int)(Math.random() *15 ) + 1;
             System.out.println("Le basilic attaque et vous inflige " + degats + " points de dégâts.\n\n");
             wizardPower -= degats;
-            }
+
                 System.out.println("Remaining life points:\n");
                 System.out.println("Wizard: " + wizardPower + "\n");
                 System.out.println("basilic: " + basilicPower +"\n");
                 System.out.println();
+            }
+
             }
 
             // Si le basilic est encore en vie, il attaque à son tour
