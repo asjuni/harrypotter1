@@ -18,7 +18,7 @@ public class Level {
     public static Level getLevel(int levelNumber) {
         switch (levelNumber) {
             case 1:
-                return new Level(1, "Toilettes du donjon \n\n", " DEBUT \n\n ");
+                return new Level(1, "Toilettes du donjon \n\n", " DEBUT  \n\n ");
             case 2:
                 return new Level(2, "Chambre des secrets \n", " DEBUT \n\n ");
             case 3:

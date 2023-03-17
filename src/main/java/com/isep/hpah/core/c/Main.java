@@ -7,6 +7,10 @@ import com.isep.hpah.core.c.spells.Pet;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static com.isep.hpah.core.c.character.Character.basilic;
+import static com.isep.hpah.core.c.character.Character.troll;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -39,7 +43,6 @@ public class Main {
                     // Création d'un utilisateur avec ces choix
 
                     Wizard wizard = new Wizard(name, pet, new Wand(core, length), new ArrayList<>(), new ArrayList<>());
-
                     // Assignation de résidence au hasard par le chapeau magique
 
                     SortingHat sortingHat = new SortingHat();
@@ -62,6 +65,8 @@ public class Main {
 
                 }
 
+                troll();
+
                 Niveau1 niveau1 = new Niveau1();
                 niveau1.combattre();
 
@@ -69,6 +74,8 @@ public class Main {
                 System.out.println("Niveau " + level.getLevelNumber() + " : " +
                         level.getLocation());
                 System.out.println(level.getInstructions());
+
+                basilic();
 
                 Niveau2.main(args);
 

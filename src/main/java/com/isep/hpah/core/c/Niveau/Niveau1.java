@@ -31,6 +31,7 @@ public class Niveau1 {
                 System.out.println("The troll is lifted in the air and falls heavily to the ground.\n\n");
                 System.out.println("The Wizard wins the combat! \n");
                 trollPower = 0;
+                System.out.println((char) 27 + "[33m" + "\n\n CONGRATULATIONS YOU HAVE PASSED THIS LEVEL. PRESS ENTER TO PROCEED TO THE NEXT LEVEL \n\n " + (char) 27 + "[0m");
 
             }
             // otherwise, the troll attacks and inflicts damage to the Wizard
@@ -52,7 +53,6 @@ public class Niveau1 {
             System.out.println("Wizard: " +  wizardPower+ "\n");
             System.out.println("Troll: " + trollPower +"\n");
             System.out.println();
-            System.out.println((char) 27 + "[33m" + "\n\n CONGRATULATIONS YOU HAVE PASSED THIS LEVEL. PRESS ENTER TO PROCEED TO THE NEXT LEVEL \n\n " + (char) 27 + "[0m");
         }
 
         // end of combat

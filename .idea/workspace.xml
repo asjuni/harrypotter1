@@ -4,33 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Potion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/SortingHat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Wand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/AbstractEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/AbstractSpell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/ForbiddenSpell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/Spell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="bhg">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/core.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/Spell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -70,13 +52,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Niveau2">
-    <configuration name="Core" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.isep.hpah.core.c.Core" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Character" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.isep.hpah.core.c.character.Character" />
       <module name="harrypotter1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.isep.hpah.core.c.*" />
+          <option name="PATTERN" value="com.isep.hpah.core.c.character.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enemy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.isep.hpah.core.c.character.Enemy" />
+    <configuration name="Core" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.isep.hpah.core.c.Core" />
       <module name="harrypotter1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.isep.hpah.core.c.character.*" />
+          <option name="PATTERN" value="com.isep.hpah.core.c.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Niveau1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.isep.hpah.core.c.Niveau.Niveau1" />
-      <module name="harrypotter1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.isep.hpah.core.c.Niveau.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Niveau2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.isep.hpah.core.c.Niveau.Niveau2" />
       <module name="harrypotter1" />
@@ -136,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="core" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.isep.hpah.core.c.core" />
+      <module name="harrypotter1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.hpah.core.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Niveau2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Core" />
-        <item itemvalue="Application.Niveau1" />
-        <item itemvalue="Application.Enemy" />
+        <item itemvalue="Application.core" />
+        <item itemvalue="Application.Character" />
+        <item itemvalue="Application.Niveau2" />
       </list>
     </recent_temporary>
   </component>
@@ -158,8 +140,37 @@
       <workItem from="1678435619543" duration="138000" />
       <workItem from="1678436219657" duration="4151000" />
       <workItem from="1678440395138" duration="11256000" />
-      <workItem from="1678456977047" duration="44203000" />
+      <workItem from="1678456977047" duration="53123000" />
     </task>
+    <task id="LOCAL-00001" summary="bgh">
+      <created>1679047007807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679047007807</updated>
+    </task>
+    <task id="LOCAL-00002" summary="bhg">
+      <created>1679047117914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679047117914</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bhg">
+      <created>1679048881701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679048881701</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bhg">
+      <created>1679050455755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679050455755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,5 +186,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bgh" />
+    <MESSAGE value="bhg" />
+    <option name="LAST_COMMIT_MESSAGE" value="bhg" />
   </component>
 </project>
