@@ -1,2 +1,4 @@
-package com.isep.hpah.core.character.spells;public class ForbiddenSpell {
+package com.isep.hpah.core.c.spells;
+
+public class ForbiddenSpell {
 }

@@ -1,2 +1,27 @@
-package com.isep.hpah.core.character.spells;public class Spell {
+package com.isep.hpah.core.c.spells;
+
+public class Spell {
+    private String name;
+    private int damage;
+
+    public Spell(String name, int damage) {
+        this.name = name;
+        this.damage = damage;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
 }

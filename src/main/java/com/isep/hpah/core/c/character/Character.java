@@ -1,2 +1,6 @@
-package com.isep.hpah.core.character;public class Character {
+package com.isep.hpah.core.c.character;
+
+public class Character {
+
 }
+
