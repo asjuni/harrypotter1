@@ -2,7 +2,7 @@ package com.isep.hpah.core.c;
 
 public class House {
     public static void main(String[] args) {
-        house();
+        maison();
     }
     public static void maison() {
         String[] houses = {"Gryffondor", "Poufsouffle", "Serpentard", "Serdaigle"};
