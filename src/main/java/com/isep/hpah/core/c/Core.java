@@ -7,10 +7,9 @@ public enum Core {
     DRAGON_HEARTSTRING,
     UNICORN_HAIR;
 
-
     public static Core chooseCore() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Choisir un coeur ?");
+        System.out.println("Choose a wand core:");
         System.out.println("1. PHOENIX_FEATHER");
         System.out.println("2. DRAGON_HEARTSTRING");
         System.out.println("3. UNICORN_HAIR");

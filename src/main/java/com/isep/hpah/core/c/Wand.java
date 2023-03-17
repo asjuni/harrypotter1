@@ -1,5 +1,4 @@
 package com.isep.hpah.core.c;
-import java.util.Scanner;
 
 import com.isep.hpah.core.c.spells.Spell;
 import lombok.*;
@@ -8,8 +7,8 @@ public class Wand {
     private String core;
     private int length;
 
-    public Wand(String core, int length) {
-        this.core = core;
+    public Wand(Core core, int length) {
+        this.core = String.valueOf(core);
         this.length = length;
     }
 

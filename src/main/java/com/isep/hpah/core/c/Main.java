@@ -12,6 +12,7 @@ import static com.isep.hpah.core.c.character.Character.basilic;
 import static com.isep.hpah.core.c.character.Character.troll;
 
 public class Main {
+
     public static void main(String[] args) {
 
         System.out.println("Welcome to the magical world of Harry Potter! Dive \n" +
@@ -27,35 +28,35 @@ public class Main {
         String name = scanner.nextLine();
 
         if (name.length() >= 2 && name.length() <= 10) {
+
             Pet pet = Pet.choosePet();
 
-            System.out.println("\n" +
-                    "What is the core of your wand?");
+            System.out.println("\nWhat is the core of your wand?");
 
-            String core = scanner.nextLine();
+            Core wandCore = Core.chooseCore();
 
-            if (core.length() >= 2 && core.length() <= 20) {
+
                 System.out.println("What is its length?");
-
                 int length = scanner.nextInt();
 
-                if (length > 0) {
+                if (length < 20) {
+
                     // Création d'un utilisateur avec ces choix
+                    Wizard wizard = new Wizard(name, pet, new Wand(wandCore, length), new ArrayList<>(), new ArrayList<>());
 
-                    Wizard wizard = new Wizard(name, pet, new Wand(core, length), new ArrayList<>(), new ArrayList<>());
                     // Assignation de résidence au hasard par le chapeau magique
-
                     SortingHat sortingHat = new SortingHat();
 
-                    System.out.println("votre inscription est bien achever ");
 
-                    System.out.println((char) 27 + "[31m" + "\n DEBUT DU JEU " + (char) 27 + "[0m");
-                    System.out.println("vous avez en votre possession 8 potion magique \n" +
-                            "dont 4 potion de soin et 4 potion de force \n");
+                    System.out.println("Your registration is complete!");
 
-                    Potion potion1 = new Potion("Soin", 4);
-                    Potion potion2 = new Potion("force", 4);
-                    potion1.utiliserPotion();
+                    System.out.println((char) 27 + "[31m" + "\n BEGIN THE GAME " + (char) 27 + "[0m \n");
+                    System.out.println("You have 8 magical potions in your possession, " +
+                            "including 4 healing potions and 4 strength potions.\n");
+
+                    Potion potion1 = new Potion("Healing", 4);
+                    Potion potion2 = new Potion("Strength", 4);
+
 
                     // Débuter le jeu à partir du niveau 1
                     Level level = Level.getLevel(1);
@@ -82,6 +83,5 @@ public class Main {
 
 
             }
+            }
         }
-    }
-}

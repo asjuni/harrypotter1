@@ -50,35 +50,4 @@ public class Wizard {
         return isDead;
     }
 
-    public int getHealth() {
-        return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public Pet getPet() {
-        return pet;
-    }
-
-    public Wand getWand() {
-        return wand;
-    }
-
-    public House getHouse() {
-        return house;
-    }
-
-    public List<Spell> getKnownSpells() {
-        return knownSpells;
-    }
-
-    public List<Potion> getPotions() {
-        return potions;
-    }
 }
