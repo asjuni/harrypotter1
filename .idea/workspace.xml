@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="bhg">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/SortingHat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/AbstractEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/character/Character.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,10 +119,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Niveau2" />
         <item itemvalue="Application.Core" />
         <item itemvalue="Application.core" />
         <item itemvalue="Application.Character" />
-        <item itemvalue="Application.Niveau2" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,8 @@
       <workItem from="1678436219657" duration="4151000" />
       <workItem from="1678440395138" duration="11256000" />
       <workItem from="1678456977047" duration="53123000" />
-      <workItem from="1679059947462" duration="4116000" />
+      <workItem from="1679059947462" duration="8002000" />
+      <workItem from="1679314989605" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="bgh">
       <created>1679047007807</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679063274197</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bhg">
+      <created>1679301076654</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679301076654</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

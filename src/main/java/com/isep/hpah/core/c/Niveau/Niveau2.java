@@ -18,9 +18,9 @@ public class Niveau2 {
             System.out.println("C'est le tour du Wizard. \n\n");
             if (maison.equals("Gryffondor")) {
                 System.out.println("Vous êtes un Gryffondor. Tapez '1 ou 2 ou 3 ' pour utiliser \n\n" +
-                        "2 .l'Épée de Griffondor \n\n " +
-                        "1. l'Épée de damoclesse \n\n" +
-                        "3 . excalibure \n\n " +
+                        "1. l'Épée de damoclesse \n" +
+                        "2.l'Épée de Griffondor \n " +
+                        "3. excalibure \n" +
                         "si vous utilisez la mauvaise arme le basilic vous attaquera.\n\n");
                 int choix = sc.nextInt();
                 if (choix == 2) {
@@ -30,6 +30,7 @@ public class Niveau2 {
                         System.out.println("Vous réussissez à trancher la tête du basilic.\n\n");
                         System.out.println("Vous avez gagné le combat !\n\n");
                         gagne = true;
+                        System.out.println((char) 27 + "[33m" + "\n\n CONGRATULATIONS YOU HAVE PASSED THIS LEVEL. PRESS ENTER TO PROCEED TO THE NEXT LEVEL \n\n " + (char) 27 + "[0m");
                     } else { // Sinon, le basilic attaque et inflige des dégâts au joueur
                         int degats = (int)(Math.random() * 30) + 1;
                         System.out.println("Le basilic attaque et vous inflige " + degats + " points de dégâts.\n\n");
@@ -57,7 +58,10 @@ public class Niveau2 {
                     }
                 }
             } else {
-                System.out.println("Vous êtes de la maison " + maison + ". Tapez '1' pour utiliser Croc du basilic avec Accio.\n\n");
+                System.out.println("Vous êtes de la maison " + maison + ". Tapez" +
+                        " 1.Croc du basilic avec Accio" +
+                        "* 2.axiom " +
+                        "3.destruction emblematique .\n\n");
                 int choix = sc.nextInt();
                 if (choix == 1) {
                     int degats = (int)(Math.random() *30 ) + 1;
@@ -77,10 +81,7 @@ public class Niveau2 {
                     int degats = (int)(Math.random() *30 ) + 1;
                     System.out.println("Le basilic attaque et vous inflige " + degats + " points de dégâts.\n\n");
                     wizardPower -= degats;
-                    System.out.println("Remaining life points:\n");
-                    System.out.println("Wizard: " + wizardPower + "\n");
-                    System.out.println("basilic: " + basilicPower +"\n");
-                    System.out.println();
+
                 }
 
                 // Si le basilic est encore en vie, il attaque à son tour

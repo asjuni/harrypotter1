@@ -2,6 +2,7 @@ package com.isep.hpah.core.c;
 
 import com.isep.hpah.core.c.Niveau.Niveau1;
 import com.isep.hpah.core.c.Niveau.Niveau2;
+import com.isep.hpah.core.c.Niveau.Niveau3;
 import com.isep.hpah.core.c.character.Wizard;
 import com.isep.hpah.core.c.spells.Pet;
 
@@ -51,6 +52,7 @@ public class Main {
                     System.out.println("Your registration is complete!");
 
                     System.out.println((char) 27 + "[31m" + "\n BEGIN THE GAME " + (char) 27 + "[0m \n");
+
                     System.out.println("You have 8 magical potions in your possession, " +
                             "including 4 healing potions and 4 strength potions.\n");
 
@@ -80,7 +82,13 @@ public class Main {
 
                 Niveau2.main(args);
 
+            level = Level.getLevel(3);
+            System.out.println("Niveau " + level.getLevelNumber() + " : " +
+                    level.getLocation());
+            System.out.println(level.getInstructions());
 
+            Niveau3 niveau3 = new Niveau3();
+            niveau3.combattre();
 
             }
             }
