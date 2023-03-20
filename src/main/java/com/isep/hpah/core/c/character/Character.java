@@ -22,14 +22,8 @@ public class Character {
 }
 
     public static void basilic() {
-        System.out.println("    /\\_/\\   ");
-        System.out.println("   ( o   o )");
-        System.out.println("  (   =^=   )");
-        System.out.println("   (        )");
-        System.out.println("    (      )");
-        System.out.println("     (    )");
-        System.out.println("      (__)_");
-
+        System.out.print(" /\\_/\\ \n" + "| o_o |\n" + "|  ^  |\n" + " \\_ _/ \n "
+        );
         }
         }
 
