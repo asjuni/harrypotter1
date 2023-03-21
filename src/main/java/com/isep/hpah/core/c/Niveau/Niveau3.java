@@ -1,7 +1,8 @@
 package com.isep.hpah.core.c.Niveau;
 
 import java.util.Scanner;
-
+import lombok.*;
+@Getter@Setter
 public class Niveau3 {
 
     public void combattre() {
