@@ -3,14 +3,15 @@ package com.isep.hpah.core.c;
 import com.isep.hpah.core.c.Niveau.Niveau1;
 import com.isep.hpah.core.c.Niveau.Niveau2;
 import com.isep.hpah.core.c.Niveau.Niveau3;
+import com.isep.hpah.core.c.Niveau.Niveau4;
 import com.isep.hpah.core.c.character.Wizard;
 import com.isep.hpah.core.c.spells.Pet;
-
+import lombok.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 import static com.isep.hpah.core.c.character.Character.*;
-
+@Getter@Setter
 public class Main {
 
     public static void main(String[] args) {
@@ -90,6 +91,16 @@ public class Main {
 
             Niveau3 niveau3 = new Niveau3();
             niveau3.combattre();
+
+            level = Level.getLevel(4);
+            System.out.println("Niveau " + level.getLevelNumber() + " : " +
+                    level.getLocation());
+            System.out.println(level.getInstructions());
+
+            peter();
+
+            Niveau4 niveau4 = new Niveau4();
+            niveau4.combattre();
 
             }
             }

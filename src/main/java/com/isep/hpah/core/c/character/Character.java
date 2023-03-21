@@ -5,6 +5,7 @@ public class Character {
         troll();
         basilic();
         detraqueur();
+        peter();
     }
     public static void troll() {
     {
@@ -57,5 +58,16 @@ System.out.println("  \\                     /");
 System.out.println("   \\___________________/");
 
 }
+public static void peter(){
+
+        System.out.println(" _____     _                 _       \n"
+                + "|_   _|__ | | ___   __ _  __| | ___  \n"
+                + "  | |/ _ \\| |/ _ \\ / _` |/ _` |/ _ \\ \n"
+                + "  | | (_) | | (_) | (_| | (_| | (_) |\n"
+                + "  |_|\\___/|_|\\___/ \\__,_|\\__,_|\\___/ \n"
+                + "                                 ");
+
+}
+
 }
 
