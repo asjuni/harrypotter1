@@ -1,5 +1,6 @@
 package com.isep.hpah.core.c;
-
+import lombok.*;
+@Getter@Setter
 public class House {
     public static void main(String[] args) {
         maison();
