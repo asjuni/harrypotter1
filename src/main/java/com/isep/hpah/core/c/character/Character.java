@@ -4,6 +4,7 @@ public class Character {
     public static void main(String[] args) {
         troll();
         basilic();
+        detraqueur();
     }
     public static void troll() {
     {
@@ -34,5 +35,27 @@ public class Character {
         System.out.println("         |      /    \\________\\/");
         System.out.println("         \\____/      \\_______/");
     }
-        }
+
+    public static void detraqueur() {
+    System.out.println("           ,     ,          ");
+System.out.println("           (\\,;,/)");
+System.out.println("            (o o)");
+System.out.println("    ,----ooO--(_)--Ooo----,");
+System.out.println("   |                       |");
+System.out.println("   |      I am a          |");
+System.out.println("   |     Detraqueur.        |");
+System.out.println("   |                       |");
+System.out.println("   |  ...and you are next. |");
+System.out.println("   |                       |");
+System.out.println("   |    ,;,;____;:;,_      |");
+System.out.println("   |   (      )  '  ' )     |");
+System.out.println("   |    \\____/\\____/      |");
+System.out.println("   |___|   /  \\   |___|");
+System.out.println("  /    \\  /    \\  /    \\");
+System.out.println(" (      \\/      \\/      )");
+System.out.println("  \\                     /");
+System.out.println("   \\___________________/");
+
+}
+}
 

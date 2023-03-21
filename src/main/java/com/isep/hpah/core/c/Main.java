@@ -9,8 +9,7 @@ import com.isep.hpah.core.c.spells.Pet;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static com.isep.hpah.core.c.character.Character.basilic;
-import static com.isep.hpah.core.c.character.Character.troll;
+import static com.isep.hpah.core.c.character.Character.*;
 
 public class Main {
 
@@ -86,6 +85,8 @@ public class Main {
             System.out.println("Niveau " + level.getLevelNumber() + " : " +
                     level.getLocation());
             System.out.println(level.getInstructions());
+
+            detraqueur();
 
             Niveau3 niveau3 = new Niveau3();
             niveau3.combattre();
