@@ -5,6 +5,7 @@ import java.util.Scanner;
 import com.isep.hpah.core.c.House;
 import com.isep.hpah.core.c.SortingHat;
 import lombok.*;
+@Getter@Setter
 public class Niveau2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
