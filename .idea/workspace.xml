@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="bhg">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="bhg" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +133,7 @@
       <workItem from="1678440395138" duration="11256000" />
       <workItem from="1678456977047" duration="53123000" />
       <workItem from="1679059947462" duration="8002000" />
-      <workItem from="1679314989605" duration="2851000" />
+      <workItem from="1679314989605" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="bgh">
       <created>1679047007807</created>
@@ -209,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679394170948</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bhg">
+      <created>1679395745559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679395745559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
