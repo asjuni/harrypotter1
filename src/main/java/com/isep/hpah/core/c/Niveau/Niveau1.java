@@ -26,7 +26,7 @@ public class Niveau1 {
             int choice = sc.nextInt();
 
             // if the Wizard casts the spell Wingardium Leviosa, he wins the combat
-            if (choice == 1) {
+            if (choice == 2) {
                 System.out.println("The Wizard casts the spell Wingardium Leviosa ! \n\n");
                 System.out.println("The troll is lifted in the air and falls heavily to the ground.\n\n");
                 System.out.println("The Wizard wins the combat! \n");
