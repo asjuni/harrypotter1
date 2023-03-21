@@ -1,7 +1,8 @@
 package com.isep.hpah.core.c;
 
 import java.util.Scanner;
-
+import lombok.*;
+@Getter
 public enum Core {
     PHOENIX_FEATHER,
     DRAGON_HEARTSTRING,
