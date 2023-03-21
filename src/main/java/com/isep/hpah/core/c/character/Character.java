@@ -1,5 +1,6 @@
 package com.isep.hpah.core.c.character;
-
+import lombok.*;
+@Getter@Setter
 public class Character {
     public static void main(String[] args) {
         troll();
