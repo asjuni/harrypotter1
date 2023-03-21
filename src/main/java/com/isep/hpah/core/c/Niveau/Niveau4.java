@@ -1,7 +1,8 @@
 package com.isep.hpah.core.c.Niveau;
 
 import java.util.Scanner;
-
+import lombok.*;
+@Getter@Setter
 public class Niveau4 {
     public void combattre() {
         Scanner sc = new Scanner(System.in);
