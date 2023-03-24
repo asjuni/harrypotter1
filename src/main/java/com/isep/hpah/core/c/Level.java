@@ -18,19 +18,19 @@ public class Level {
     public static Level getLevel(int levelNumber) {
         switch (levelNumber) {
             case 1:
-                return new Level(1, "Toilettes du donjon \n\n", " DEBUT  DU CHAPITRE 1  \n\n ");
+                return new Level(1, "\n=====================\nToilettes du donjon \n=====================\n", "\n=====================\n DEBUT  DU CHAPITRE 1 \n=====================\n ");
             case 2:
-                return new Level(2, "Chambre des secrets \n", " DEBUT  DU CHAPITRE 2 \n\n ");
+                return new Level(2, "\n=====================\nChambre des secrets \n=====================\n", " \n=====================\nDEBUT  DU CHAPITRE 2 \n=====================\n");
             case 3:
-                return new Level(3, "Lac dans la Forêt Interdite\n", " DEBUT  DU CHAPITRE 3 \n\n ");
+                return new Level(3, "\n=====================\nLac dans la Forêt Interdite\n=====================\n", "\n=====================\n DEBUT  DU CHAPITRE 3 \n=====================\n ");
             case 4:
-                return new Level(4, "Cimetière de Little Hangleton\n", " DEBUT  DU CHAPITRE 4 \n\n ");
+                return new Level(4, "\n=====================\nCimetière de Little Hangleton\n=====================\n", "\n=====================\n DEBUT  DU CHAPITRE 4 \n=====================\n ");
             case 5:
-                return new Level(5, "Salle d’examen de Poudlard\n", " DEBUT  DU CHAPITRE 5 \n\n ");
+                return new Level(5, "\n=====================\nSalle d’examen de Poudlard\n=====================\n", "\n=====================\n DEBUT  DU CHAPITRE 5 \n=====================\n ");
             case 6:
-                return new Level(6, "Tour d’astronomie\n", " DEBUT  DU CHAPITRE 6 \n\n ");
+                return new Level(6, "\n=====================\nTour d’astronomie\n=====================\n", " \n=====================\nDEBUT  DU CHAPITRE 6 \n=====================\n ");
             case 7:
-                return new Level(7, "Poudlard\n", " DEBUT  DU CHAPITRE 7 \n\n ");
+                return new Level(7, "\n=====================\nPoudlard\n=====================\n", "\n=====================\n DEBUT  DU CHAPITRE 7 \n=====================\n ");
             default:
                 return null;
         }
