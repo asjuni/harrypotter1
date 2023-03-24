@@ -80,7 +80,8 @@ public class Main {
 
                 basilic();
 
-                Niveau2.main(args);
+            Niveau2 niveau2 = new Niveau2();
+            niveau2.combattre();
 
             level = Level.getLevel(3);
             System.out.println("Niveau " + level.getLevelNumber() + " : " +
