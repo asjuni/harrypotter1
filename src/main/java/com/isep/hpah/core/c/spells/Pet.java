@@ -11,12 +11,12 @@ public enum Pet {
 
     public static Pet choosePet() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("choisir un animal parmi les 5 ?");
+        System.out.println("\n=====================================================\nchoisir un animal parmi les 5 ?");
         System.out.println("1. CROCKDUR");
         System.out.println("2. HEDWIGE");
         System.out.println("3. PIGWIDGEON");
         System.out.println("4. SCABBERS");
-        System.out.println("5. CROUTARD");
+        System.out.println("5. CROUTARD\n=====================================================\n");
         int choice = scanner.nextInt();
         Pet pet;
         switch (choice) {
