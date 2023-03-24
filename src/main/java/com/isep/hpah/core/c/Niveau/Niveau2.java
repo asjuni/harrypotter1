@@ -7,7 +7,7 @@ import com.isep.hpah.core.c.SortingHat;
 import lombok.*;
 @Getter@Setter
 public class Niveau2 {
-    public static void main(String[] args) {
+    public void combattre() {
         Scanner sc = new Scanner(System.in);
         boolean gagne = false;
         int wizardPower = 100;
@@ -19,9 +19,9 @@ public class Niveau2 {
             System.out.println("C'est le tour du Wizard. \n\n");
             if (maison.equals("Gryffondor")) {
                 System.out.println("Vous êtes un Gryffondor. Tapez '1 ou 2 ou 3 ' pour utiliser \n\n" +
-                        "1. l'Épée de damoclesse \n" +
+                        "1.l'Épée de damoclesse \n" +
                         "2.l'Épée de Griffondor \n " +
-                        "3. excalibure \n" +
+                        "3.excalibure \n" +
                         "si vous utilisez la mauvaise arme le basilic vous attaquera.\n\n");
                 int choix = sc.nextInt();
                 if (choix == 2) {
