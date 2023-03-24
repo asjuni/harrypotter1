@@ -1,0 +1,153 @@
+Index: src/main/java/com/isep/hpah/core/c/Niveau/Niveau5.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/isep/hpah/core/c/Niveau/Niveau5.java b/src/main/java/com/isep/hpah/core/c/Niveau/Niveau5.java
+new file mode 100644
+--- /dev/null	(date 1679647203626)
++++ b/src/main/java/com/isep/hpah/core/c/Niveau/Niveau5.java	(date 1679647203626)
+@@ -0,0 +1,4 @@
++package com.isep.hpah.core.c.Niveau;
++
++public class Niveau5 {
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"93a9c898-6d42-41b2-b3e1-54efc0c59a40\" name=\"Changes\" comment=\"bhg\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MdGXr83fG9oI7BaTQ27OaY2e3b\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"Character\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.isep.hpah.core.c.character.Character\" />\r\n      <module name=\"harrypotter1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.isep.hpah.core.c.character.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Core\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.isep.hpah.core.c.Core\" />\r\n      <module name=\"harrypotter1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.isep.hpah.core.c.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.isep.hpah.core.c.Main\" />\r\n      <module name=\"harrypotter1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.isep.hpah.core.c.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Niveau2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.isep.hpah.core.c.Niveau.Niveau2\" />\r\n      <module name=\"harrypotter1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.isep.hpah.core.c.Niveau.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"core\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.isep.hpah.core.c.core\" />\r\n      <module name=\"harrypotter1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.isep.hpah.core.c.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.Niveau2\" />\r\n        <item itemvalue=\"Application.Core\" />\r\n        <item itemvalue=\"Application.core\" />\r\n        <item itemvalue=\"Application.Character\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"93a9c898-6d42-41b2-b3e1-54efc0c59a40\" name=\"Changes\" comment=\"\" />\r\n      <created>1678090089412</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678090089412</updated>\r\n      <workItem from=\"1678090091185\" duration=\"21724000\" />\r\n      <workItem from=\"1678435619543\" duration=\"138000\" />\r\n      <workItem from=\"1678436219657\" duration=\"4151000\" />\r\n      <workItem from=\"1678440395138\" duration=\"11256000\" />\r\n      <workItem from=\"1678456977047\" duration=\"53123000\" />\r\n      <workItem from=\"1679059947462\" duration=\"8002000\" />\r\n      <workItem from=\"1679314989605\" duration=\"3648000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"bgh\">\r\n      <created>1679047007807</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679047007807</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"bhg\">\r\n      <created>1679047117914</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679047117914</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"bhg\">\r\n      <created>1679048881701</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679048881701</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"bhg\">\r\n      <created>1679050455755</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679050455755</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"bhg\">\r\n      <created>1679059969475</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679059969475</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"bhg\">\r\n      <created>1679063137453</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679063137453</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"bhg\">\r\n      <created>1679063274197</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679063274197</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"bhg\">\r\n      <created>1679301076654</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679301076654</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"bhg\">\r\n      <created>1679315835736</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679315835736</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"bhg\">\r\n      <created>1679394170948</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679394170948</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"bhg\">\r\n      <created>1679395745559</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679395745559</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"bhg\">\r\n      <created>1679395852485</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679395852485</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"bhg\">\r\n      <created>1679395927897</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679395927898</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"14\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"bgh\" />\r\n    <MESSAGE value=\"bhg\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"bhg\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f034cb97fa5816c2d9081469107125ef68f14d06)
++++ b/.idea/workspace.xml	(date 1679648330278)
+@@ -4,7 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="bhg" />
++    <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="isep algorythme et programmation">
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau5.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -133,7 +138,7 @@
+       <workItem from="1678440395138" duration="11256000" />
+       <workItem from="1678456977047" duration="53123000" />
+       <workItem from="1679059947462" duration="8002000" />
+-      <workItem from="1679314989605" duration="3648000" />
++      <workItem from="1679314989605" duration="8570000" />
+     </task>
+     <task id="LOCAL-00001" summary="bgh">
+       <created>1679047007807</created>
+@@ -226,7 +231,63 @@
+       <option name="project" value="LOCAL" />
+       <updated>1679395927898</updated>
+     </task>
+-    <option name="localTasksCounter" value="14" />
++    <task id="LOCAL-00014" summary="bhg">
++      <created>1679396367956</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396367956</updated>
++    </task>
++    <task id="LOCAL-00015" summary="isep algorythme et programmation">
++      <created>1679396411707</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396411707</updated>
++    </task>
++    <task id="LOCAL-00016" summary="isep algorythme et programmation">
++      <created>1679396422807</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396422807</updated>
++    </task>
++    <task id="LOCAL-00017" summary="isep algorythme et programmation">
++      <created>1679396438152</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396438152</updated>
++    </task>
++    <task id="LOCAL-00018" summary="isep algorythme et programmation">
++      <created>1679396446799</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396446799</updated>
++    </task>
++    <task id="LOCAL-00019" summary="isep algorythme et programmation">
++      <created>1679396458364</created>
++      <option name="number" value="00019" />
++      <option name="presentableId" value="LOCAL-00019" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396458364</updated>
++    </task>
++    <task id="LOCAL-00020" summary="isep algorythme et programmation">
++      <created>1679396470385</created>
++      <option name="number" value="00020" />
++      <option name="presentableId" value="LOCAL-00020" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396470385</updated>
++    </task>
++    <task id="LOCAL-00021" summary="isep algorythme et programmation">
++      <created>1679396478106</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1679396478106</updated>
++    </task>
++    <option name="localTasksCounter" value="22" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -246,6 +307,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="bgh" />
+     <MESSAGE value="bhg" />
+-    <option name="LAST_COMMIT_MESSAGE" value="bhg" />
++    <MESSAGE value="isep algorythme et programmation" />
++    <option name="LAST_COMMIT_MESSAGE" value="isep algorythme et programmation" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.isep.hpah.core.c.Niveau;\r\n\r\nimport java.util.Scanner;\r\n\r\nimport com.isep.hpah.core.c.House;\r\nimport com.isep.hpah.core.c.SortingHat;\r\nimport lombok.*;\r\n@Getter@Setter\r\npublic class Niveau2 {\r\n    public static void main(String[] args) {\r\n        Scanner sc = new Scanner(System.in);\r\n        boolean gagne = false;\r\n        int wizardPower = 100;\r\n        int basilicPower = 20;\r\n        System.out.println(\"Bienvenue au combat contre le basilic !\");\r\n        System.out.print(\"Dans quelle maison êtes-vous ? \\n\\n\");\r\n        String maison = sc.nextLine();\r\n        while (basilicPower > 0 && !gagne) { // Le niveau ne se termine que lorsque la vie du basilic est null\r\n            System.out.println(\"C'est le tour du Wizard. \\n\\n\");\r\n            if (maison.equals(\"Gryffondor\")) {\r\n                System.out.println(\"Vous êtes un Gryffondor. Tapez '1 ou 2 ou 3 ' pour utiliser \\n\\n\" +\r\n                        \"1. l'Épée de damoclesse \\n\" +\r\n                        \"2.l'Épée de Griffondor \\n \" +\r\n                        \"3. excalibure \\n\" +\r\n                        \"si vous utilisez la mauvaise arme le basilic vous attaquera.\\n\\n\");\r\n                int choix = sc.nextInt();\r\n                if (choix == 2) {\r\n                    System.out.println(\"Vous utilisez l'Épée de Griffondor !\\n\\n\");\r\n                    basilicPower -= 30; // Le basilic perd en point de vie\r\n                    if (basilicPower <= 0) { // Si le basilic n'a plus de vie, le joueur gagne le combat\r\n                        System.out.println(\"Vous réussissez à trancher la tête du basilic.\\n\\n\");\r\n                        System.out.println(\"Vous avez gagné le combat !\\n\\n\");\r\n                        gagne = true;\r\n                        System.out.println((char) 27 + \"[33m\" + \"\\n\\n CONGRATULATIONS YOU HAVE PASSED THIS LEVEL. PRESS ENTER TO PROCEED TO THE NEXT LEVEL \\n\\n \" + (char) 27 + \"[0m\");\r\n                    } else { // Sinon, le basilic attaque et inflige des dégâts au joueur\r\n                        int degats = (int)(Math.random() * 30) + 1;\r\n                        System.out.println(\"Le basilic attaque et vous inflige \" + degats + \" points de dégâts.\\n\\n\");\r\n                        wizardPower -= degats;\r\n                        System.out.println(\"Remaining life points:\\n\");\r\n                        System.out.println(\"Wizard: \" + wizardPower + \"\\n\");\r\n                        System.out.println(\"basilic: \" + basilicPower +\"\\n\");\r\n                        System.out.println();\r\n                        if (wizardPower <= 0) { // Si le joueur n'a plus de vie, il perd le combat\r\n                            System.out.println(\"Vous avez perdu le combat.\\n\\n\");\r\n                            break;\r\n                        }\r\n                    }\r\n                } else {\r\n                    int degats = (int)(Math.random() * 30) + 1;\r\n                    System.out.println(\"Le basilic attaque et vous inflige \" + degats + \" points de dégâts.\\n\\n\");\r\n                    wizardPower -= degats;\r\n                    System.out.println(\"Remaining life points:\\n\");\r\n                    System.out.println(\"Wizard: \" + wizardPower + \"\\n\");\r\n                    System.out.println(\"basilic: \" + basilicPower +\"\\n\");\r\n                    System.out.println();\r\n                    if (wizardPower <= 0) {\r\n                        System.out.println(\"Vous avez perdu le combat.\\n\\n\");\r\n                        break;\r\n                    }\r\n                }\r\n            } else {\r\n                System.out.println(\"Vous êtes de la maison \" + maison + \". Tapez\" +\r\n                        \" 1.Croc du basilic avec Accio\" +\r\n                        \"* 2.axiom \" +\r\n                        \"3.destruction emblematique .\\n\\n\");\r\n                int choix = sc.nextInt();\r\n                if (choix == 1) {\r\n                    int degats = (int)(Math.random() *30 ) + 1;\r\n                    basilicPower-= degats;\r\n                    System.out.println(\"Vous utilisez Croc du basilic avec Accio !\\n\\n\");\r\n                    System.out.println(\"Vous réussissez à transpercer le cœur du basilic.\\n\\n\");\r\n                    System.out.println(\"Vous avez gagné le combat !\\n\\n\");\r\n                    gagne = true;\r\n\r\n                    System.out.println(\"Remaining life points:\\n\");\r\n                    System.out.println(\"Wizard: \" + wizardPower + \"\\n\");\r\n                    System.out.println(\"basilic: \" + basilicPower +\"\\n\");\r\n                    System.out.println();\r\n                }\r\n                // sinon, le basilic attaque et inflige des dégâts au joueur\r\n                else {\r\n                    int degats = (int)(Math.random() *30 ) + 1;\r\n                    System.out.println(\"Le basilic attaque et vous inflige \" + degats + \" points de dégâts.\\n\\n\");\r\n                    wizardPower -= degats;\r\n\r\n                }\r\n\r\n                // Si le basilic est encore en vie, il attaque à son tour\r\n                if (basilicPower > 0 && !gagne) {\r\n                    int degats = (int)(Math.random() * 30) + 1;\r\n                    System.out.println(\"C'est le tour du basilic. Il attaque et vous inflige \" + degats + \" points de dégâts.\\n\\n\");\r\n                    basilicPower -= degats;\r\n                    System.out.println(\"Remaining life points:\\n\");\r\n                    System.out.println(\"Wizard: \" + wizardPower + \"\\n\");\r\n                    System.out.println(\"basilic: \" + basilicPower +\"\\n\");\r\n                    System.out.println();\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java b/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java
+--- a/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java	(revision f034cb97fa5816c2d9081469107125ef68f14d06)
++++ b/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java	(date 1679647203635)
+@@ -7,7 +7,7 @@
+ import lombok.*;
+ @Getter@Setter
+ public class Niveau2 {
+-    public static void main(String[] args) {
++    public void combattre() {
+         Scanner sc = new Scanner(System.in);
+         boolean gagne = false;
+         int wizardPower = 100;
+@@ -19,9 +19,9 @@
+             System.out.println("C'est le tour du Wizard. \n\n");
+             if (maison.equals("Gryffondor")) {
+                 System.out.println("Vous êtes un Gryffondor. Tapez '1 ou 2 ou 3 ' pour utiliser \n\n" +
+-                        "1. l'Épée de damoclesse \n" +
++                        "1.l'Épée de damoclesse \n" +
+                         "2.l'Épée de Griffondor \n " +
+-                        "3. excalibure \n" +
++                        "3.excalibure \n" +
+                         "si vous utilisez la mauvaise arme le basilic vous attaquera.\n\n");
+                 int choix = sc.nextInt();
+                 if (choix == 2) {
