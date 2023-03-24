@@ -10,10 +10,10 @@ public enum Core {
 
     public static Core chooseCore() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Choose a wand core:");
+        System.out.println("\n==============================\nChoose a wand core:");
         System.out.println("1. PHOENIX_FEATHER");
         System.out.println("2. DRAGON_HEARTSTRING");
-        System.out.println("3. UNICORN_HAIR");
+        System.out.println("3. UNICORN_HAIR\n==============================\n");
 
         int choice = scanner.nextInt();
         Core core;
