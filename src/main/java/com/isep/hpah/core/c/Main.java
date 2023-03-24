@@ -16,15 +16,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Welcome to the magical world of Harry Potter! Dive \n" +
+        System.out.println("\n============================================================================================================================================\nWelcome to the magical world of Harry Potter! Dive \n" +
                 "into the enchanting world of Hogwarts and experience unforgettable adventures \n" +
                 "with Harry, Hermione and Ron! Explore magical worlds and fight against the forces of \n" +
                 "evil to bring back peace and justice! Live a unique and exciting adventure, where you will \n" +
-                "discover secrets and surprises around every corner!\n");
+                "discover secrets and surprises around every corner!\n============================================================================================================================================\n");
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the Harry Potter game! To begin, create your wizard: what is their name?");
+        System.out.println("\n============================================================================================================================================\nWelcome to the Harry Potter game! To begin, create your wizard: what is their name?\n============================================================================================================================================\n");
 
         String name = scanner.nextLine();
 
@@ -32,12 +32,11 @@ public class Main {
 
             Pet pet = Pet.choosePet();
 
-            System.out.println("\nWhat is the core of your wand?");
 
             Core wandCore = Core.chooseCore();
 
 
-                System.out.println("What is its length?");
+                System.out.println("\n=====================\nWhat is its length?\n=====================\n");
                 int length = scanner.nextInt();
 
                 if (length < 20) {
@@ -49,12 +48,14 @@ public class Main {
                     SortingHat sortingHat = new SortingHat();
 
 
-                    System.out.println("Your registration is complete!");
+                    System.out.println("\n=====================\nYour registration is complete!\n=====================\n");
 
-                    System.out.println((char) 27 + "[31m" + "\n BEGIN THE GAME " + (char) 27 + "[0m \n");
+                    System.out.println("\033[34m" + "==========================" + "\033[0m");
+                    System.out.print("\033[34m" + "BEGIN THE GAME" + "\033[0m");
+                    System.out.println("\033[34m" + "\n==========================" + "\033[0m");
 
-                    System.out.println("You have 8 magical potions in your possession, " +
-                            "including 4 healing potions and 4 strength potions.\n");
+                    System.out.println("\n=====================\nYou have 8 magical potions in your possession, " +
+                            "including 4 healing potions and 4 strength potions.\n=====================\n");
 
                     Potion potion1 = new Potion("Healing", 4);
                     Potion potion2 = new Potion("Strength", 4);
@@ -62,7 +63,7 @@ public class Main {
 
                     // Débuter le jeu à partir du niveau 1
                     Level level = Level.getLevel(1);
-                    System.out.println("Niveau " + level.getLevelNumber() + " : " +
+                    System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " : \n=====================\n" +
                             level.getLocation());
                     System.out.println(level.getInstructions());
 
@@ -74,7 +75,7 @@ public class Main {
                 niveau1.combattre();
 
                 Level level = Level.getLevel(2);
-                System.out.println("Niveau " + level.getLevelNumber() + " : " +
+                System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " : \n=====================\n" +
                         level.getLocation());
                 System.out.println(level.getInstructions());
 
@@ -84,7 +85,7 @@ public class Main {
             niveau2.combattre();
 
             level = Level.getLevel(3);
-            System.out.println("Niveau " + level.getLevelNumber() + " : " +
+            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " : \n=====================\n" +
                     level.getLocation());
             System.out.println(level.getInstructions());
 
@@ -94,7 +95,7 @@ public class Main {
             niveau3.combattre();
 
             level = Level.getLevel(4);
-            System.out.println("Niveau " + level.getLevelNumber() + " : " +
+            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
                     level.getLocation());
             System.out.println(level.getInstructions());
 
