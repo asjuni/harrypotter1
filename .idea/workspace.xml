@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93a9c898-6d42-41b2-b3e1-54efc0c59a40" name="Changes" comment="isep algorythme et programmation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/Niveau/Niveau4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/SortingHat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/AbstractSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/AbstractSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/hpah/core/c/spells/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +138,7 @@
       <workItem from="1678440395138" duration="11256000" />
       <workItem from="1678456977047" duration="53123000" />
       <workItem from="1679059947462" duration="8002000" />
-      <workItem from="1679314989605" duration="15222000" />
+      <workItem from="1679314989605" duration="16152000" />
     </task>
     <task id="LOCAL-00001" summary="bgh">
       <created>1679047007807</created>
@@ -333,7 +322,98 @@
       <option name="project" value="LOCAL" />
       <updated>1679648390741</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="isep algorythme et programmation">
+      <created>1679655460907</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655460907</updated>
+    </task>
+    <task id="LOCAL-00028" summary="isep algorythme et programmation">
+      <created>1679655470504</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655470504</updated>
+    </task>
+    <task id="LOCAL-00029" summary="isep algorythme et programmation">
+      <created>1679655479926</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655479926</updated>
+    </task>
+    <task id="LOCAL-00030" summary="isep algorythme et programmation">
+      <created>1679655490616</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655490616</updated>
+    </task>
+    <task id="LOCAL-00031" summary="isep algorythme et programmation">
+      <created>1679655499079</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655499079</updated>
+    </task>
+    <task id="LOCAL-00032" summary="isep algorythme et programmation">
+      <created>1679655509993</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655509994</updated>
+    </task>
+    <task id="LOCAL-00033" summary="isep algorythme et programmation">
+      <created>1679655520371</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655520371</updated>
+    </task>
+    <task id="LOCAL-00034" summary="isep algorythme et programmation">
+      <created>1679655531091</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655531091</updated>
+    </task>
+    <task id="LOCAL-00035" summary="isep algorythme et programmation">
+      <created>1679655540471</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655540471</updated>
+    </task>
+    <task id="LOCAL-00036" summary="isep algorythme et programmation">
+      <created>1679655548504</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655548504</updated>
+    </task>
+    <task id="LOCAL-00037" summary="isep algorythme et programmation">
+      <created>1679655558111</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655558111</updated>
+    </task>
+    <task id="LOCAL-00038" summary="isep algorythme et programmation">
+      <created>1679655568799</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655568799</updated>
+    </task>
+    <task id="LOCAL-00039" summary="isep algorythme et programmation">
+      <created>1679655576660</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655576660</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
