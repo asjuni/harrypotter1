@@ -2,6 +2,9 @@ package com.isep.hpah.core.c.Niveau;
 
 import java.util.Scanner;
 import lombok.*;
+
+import static com.isep.hpah.core.c.spells.AbstractSpell.clearConsole;
+
 @Getter@Setter
 public class Niveau3 {
 
@@ -13,45 +16,47 @@ public class Niveau3 {
         int dementorsPower = 20;
         // combat loop
         while (wizardPower > 0 && dementorsPower > 0) {
-            System.out.println("\nIt's the Wizard's turn.\n" +
+            System.out.println(".\n=====================\nIt's the Wizard's turn.\n" +
                     "You have one spell to defeat the Dementors:\n" +
                     "1.patronum restreint \n\n" +
                     "2.elipse \n\n" +
-                    "3.Expecto Patronum \n\n");
+                    "3.Expecto Patronum .\n=====================\n");
             int choice = sc.nextInt();
 
             // if the Wizard casts the spell Expecto Patronum, he wins the combat
             if (choice == 3) {
-                System.out.println("The Wizard casts the spell Expecto Patronum !\n\n");
-                System.out.println("The Détraqueurs flee in terror.\n\n");
-                System.out.println("The Wizard wins the combat!\n");
+                System.out.println(".\n=====================\nThe Wizard casts the spell Expecto Patronum !.\n=====================\n");
+                System.out.println(".\n=====================\nThe Détraqueurs flee in terror..\n=====================\n");
+                System.out.println(".\n=====================\nThe Wizard wins the combat!.\n=====================\n");
                 dementorsPower = 0;
-                System.out.println((char) 27 + "[33m" + "\n\nCONGRATULATIONS! YOU HAVE COMPLETED LEVEL 3. PRESS ENTER TO EXIT THE GAME." + (char) 27 + "[0m");
+                System.out.println("\u001B[33m\n=====================\nCongratulations, you have passed this level.\nPress ENTER to proceed to the next level.\n=====================\n\n\n\u001B[0m");
+                sc.nextLine();
+                sc.nextLine();
             }
             // otherwise, the Dementors attack and inflict damage to the Wizard
             else {
                 int damage = (int)(Math.random() * 10) + 1;
-                System.out.println("The Dementors attack the Wizard and inflict " + damage + " points of damage.\n\n");
+                System.out.println(".\n=====================\nThe Dementors attack the Wizard and inflict " + damage + " points of damage..\n=====================\n");
                 wizardPower -= damage;
             }
 
             // if the Dementors are still alive, they attack in turn
             if (dementorsPower > 0) {
                 int damage = (int)(Math.random() * 8) + 1;
-                System.out.println("It's the Détraqueurs' turn. They attack the Wizard and inflict " + damage + " points of damage.\n\n");
+                System.out.println(".\n=====================\nIt's the Détraqueurs' turn. They attack the Wizard and inflict " + damage + " points of damage..\n=====================\n");
                 wizardPower -= damage;
             }
 
             // display of remaining life points
-            System.out.println("Remaining life points:\n");
-            System.out.println("Wizard: " + wizardPower + "\n");
-            System.out.println("Détraqueurs: " + dementorsPower + "\n");
+            System.out.println(".\n=====================\nRemaining life points:.\n=====================\n");
+            System.out.println(".\n=====================\nWizard: " + wizardPower + ".\n=====================\n");
+            System.out.println(".\n=====================\nDétraqueurs: " + dementorsPower + ".\n=====================\n");
             System.out.println();
         }
 
         // end of combat
         if (wizardPower <= 0) {
-            System.out.println("\n\nThe Détraqueurs have defeated the Wizard!\n");
+            System.out.println(".\n=====================\nThe Détraqueurs have defeated the Wizard!.\n=====================\n");
         }
     }
 }
