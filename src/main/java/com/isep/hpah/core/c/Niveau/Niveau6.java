@@ -54,5 +54,4 @@ public class Niveau6 {
         System.out.println("\u001B[33m\n=====================\nCongratulations, you have passed this level.\nPress ENTER to proceed to the next level.\n=====================\n\n\n\u001B[0m");
     }
 
-
 }
