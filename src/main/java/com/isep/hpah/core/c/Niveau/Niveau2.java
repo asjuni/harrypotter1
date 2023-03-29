@@ -20,7 +20,7 @@ public class Niveau2 {
         System.out.print("\n=====================\nDans quelle maison êtes-vous ? \n=====================\n");
         String maison = sc.nextLine();
         while (basilicPower > 0 && !gagne) {
-           ;// Le niveau ne se termine que lorsque la vie du basilic est null
+           // Le niveau ne se termine que lorsque la vie du basilic est null
             System.out.println("\n=====================\nC'est le tour du Wizard.\n=====================\n");
             if (maison.equals("Gryffondor")) {
                 System.out.println("\n=====================\nVous êtes un Gryffondor. Tapez '1 ou 2 ou 3 ' pour utiliser \n" +
@@ -70,7 +70,7 @@ public class Niveau2 {
                         "2.Dentes diminuendo\n" +
                         "3.Evanesco \n=====================\n");
                 int choix = sc.nextInt();
-                if (choix == 1) {
+                  if(choix == 1) {
                     int degats = (int)(Math.random() *30 ) + 1;
                     basilicPower-= degats;
                     System.out.println(".\n=====================\nVous utilisez Croc du basilic avec Accio !.\n=====================\n");
