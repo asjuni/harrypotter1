@@ -3,8 +3,6 @@ package com.isep.hpah.core.c.Niveau;
 import java.util.Scanner;
 import lombok.*;
 
-import static com.isep.hpah.core.c.spells.AbstractSpell.clearConsole;
-
 @Getter@Setter
 public class Niveau4 {
     public void combattre() {
@@ -19,8 +17,8 @@ public class Niveau4 {
             // Wizard's turn
             System.out.println("\n=====================\nIt's the Wizard's turn.\n" +
                     "You have one spell to weaken Peter Pettigrew:\n" +
-                    "1. Expelliarmus \n\n" +
-                    "2. Stupefy \n\n" +
+                    "1. Glacius \n\n" +
+                    "2. Furunculus  \n\n" +
                     "3. Accio \n=====================\n");
             int choice = sc.nextInt();
 
