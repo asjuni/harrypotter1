@@ -12,9 +12,8 @@ public class Niveau6 {
         int mangemortPower = 60;
         String playerHouse, joinEnemy, spell, target;
 
-        System.out.print("Dans quelle maison êtes-vous ? ");
+        System.out.print("Dans quelle maison êtes-vous ? \n");
         playerHouse = sc.nextLine();
-
         // Check if the player is a Death Eater or not
         if (playerHouse.equalsIgnoreCase("Serpentard")) {
             System.out.print("Voulez-vous vous allier avec les Mangemorts ? ");
@@ -34,7 +33,6 @@ public class Niveau6 {
             System.out.println("Wizard: " + wizardPower );
             System.out.println("Détraqueurs: " + mangemortPower + ".\n=====================\n");
         }
-
         // The player must eliminate all the Death Eaters to win
         while (mangemortPower > 0) {
             System.out.print("Quel sort voulez-vous lancer ? ");
@@ -49,9 +47,7 @@ public class Niveau6 {
             target = sc.nextLine();
             System.out.println("Vous avez visé " + target + ".");
         }
-
         System.out.println("Félicitations ! Vous avez éliminé tous les Mangemorts et sauvé Poudlard !");
         System.out.println("\u001B[33m\n=====================\nCongratulations, you have passed this level.\nPress ENTER to proceed to the next level.\n=====================\n\n\n\u001B[0m");
     }
-
 }
