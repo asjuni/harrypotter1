@@ -2,11 +2,8 @@ package com.isep.hpah.core.c.Niveau;
 
 import java.util.Scanner;
 
-import com.isep.hpah.core.c.House;
-import com.isep.hpah.core.c.SortingHat;
 import lombok.*;
 
-import static com.isep.hpah.core.c.spells.AbstractSpell.clearConsole;
 
 @Getter@Setter
 public class Niveau2 {
@@ -24,9 +21,9 @@ public class Niveau2 {
         String maison = sc.nextLine();
         while (basilicPower > 0 && !gagne) {
            ;// Le niveau ne se termine que lorsque la vie du basilic est null
-            System.out.println("\n=====================\nC'est le tour du Wizard. \n=====================\n");
+            System.out.println("\n=====================\nC'est le tour du Wizard.\n=====================\n");
             if (maison.equals("Gryffondor")) {
-                System.out.println("\n=====================\nVous êtes un Gryffondor. Tapez '1 ou 2 ou 3 ' pour utiliser " +
+                System.out.println("\n=====================\nVous êtes un Gryffondor. Tapez '1 ou 2 ou 3 ' pour utiliser \n" +
                         "1.l'Épée de damoclesse \n" +
                         "2.l'Épée de Griffondor \n " +
                         "3.excalibure \n" +
@@ -70,8 +67,8 @@ public class Niveau2 {
             } else {
                 System.out.println(".\n=====================Vous êtes de la maison " + maison + ". Tapez" +
                         "1.Croc du basilic avec Accio\n" +
-                        "2.axiom \n" +
-                        "3.destruction emblematique \n=====================\n");
+                        "2.Dentes diminuendo\n" +
+                        "3.Evanesco \n=====================\n");
                 int choix = sc.nextInt();
                 if (choix == 1) {
                     int degats = (int)(Math.random() *30 ) + 1;
