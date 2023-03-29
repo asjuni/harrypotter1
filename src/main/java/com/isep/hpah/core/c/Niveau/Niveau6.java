@@ -3,51 +3,51 @@ package com.isep.hpah.core.c.Niveau;
 import java.util.Scanner;
 
 public class Niveau6 {
-
     public void combattre() {
         Scanner sc = new Scanner(System.in);
 
         // initialization of Wizard and Death Eaters' characteristics
         int wizardPower = 100;
-        int mangemortPower = 60;
+        int mangemotPower = 60;
         String playerHouse, joinEnemy, spell, target;
 
-        System.out.print("Dans quelle maison êtes-vous ? \n");
+        System.out.print("Which Hogwarts House are you in? \n");
         playerHouse = sc.nextLine();
         // Check if the player is a Death Eater or not
-        if (playerHouse.equalsIgnoreCase("Serpentard")) {
-            System.out.print("Voulez-vous vous allier avec les Mangemorts ? ");
+        if (playerHouse.equalsIgnoreCase("Slytherin")) {
+            System.out.print("Do you want to join the Death Eaters? ");
             joinEnemy = sc.nextLine();
-            if (joinEnemy.equalsIgnoreCase("oui")) {
-                System.out.println("Vous avez rejoint les Mangemorts. Fin du jeu.");
+            if (joinEnemy.equalsIgnoreCase("yes")) {
+                System.out.println("You have joined the Death Eaters. Game over.");
                 return;
             } else {
-                System.out.println("Vous avez choisi de ne pas vous allier avec les Mangemorts. Le combat commence !");
+                System.out.println("You have chosen not to join the Death Eaters. The battle begins!");
             }
         } else {
-            System.out.println("Le combat commence !");
+            System.out.println("The battle begins!");
         }
-        if (mangemortPower <= 0) {
-            System.out.println("Félicitations ! Vous avez éliminé tous les Mangemorts et sauvé Poudlard !");
+        if ( mangemotPower <= 0 ) {
+            System.out.println("Congratulations! You have eliminated all the Death Eaters and saved Hogwarts!");
             System.out.println(".\n=====================\nRemaining life points:\n");
             System.out.println("Wizard: " + wizardPower );
-            System.out.println("Détraqueurs: " + mangemortPower + ".\n=====================\n");
+            System.out.println("Death Eaters: " + mangemotPower + ".\n=====================\n");
         }
         // The player must eliminate all the Death Eaters to win
-        while (mangemortPower > 0) {
-            System.out.print("Quel sort voulez-vous lancer ? ");
+        while (mangemotPower > 0) {
+            System.out.print("Which spell do you want to cast? ");
             spell = sc.nextLine();
             if (spell.equalsIgnoreCase("Sectumsempra")) {
-                mangemortPower -= 20;
-                System.out.println("Vous avez réussi à éliminer un Mangemort !");
+                mangemotPower -= 20;
+                System.out.println("You have successfully eliminated a Death Eater!");
             } else {
-                System.out.println("Le sort n'a aucun effet sur l'ennemi.");
+                System.out.println("The spell has no effect on the enemy.");
             }
-            System.out.println("Il reste " + mangemortPower/20 + " Mangemorts. Qui voulez-vous viser ?");
+            System.out.println("There are " + mangemotPower/20 + " Death Eaters left. Who do you want to target?");
             target = sc.nextLine();
-            System.out.println("Vous avez visé " + target + ".");
+            System.out.println("You have targeted " + target + ".");
         }
-        System.out.println("Félicitations ! Vous avez éliminé tous les Mangemorts et sauvé Poudlard !");
+        System.out.println("Congratulations! You have eliminated all the Death Eaters and saved Hogwarts!");
         System.out.println("\u001B[33m\n=====================\nCongratulations, you have passed this level.\nPress ENTER to proceed to the next level.\n=====================\n\n\n\u001B[0m");
     }
-}
+
+    }
