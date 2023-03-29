@@ -1,9 +1,6 @@
 package com.isep.hpah.core.c;
 
-import com.isep.hpah.core.c.Niveau.Niveau1;
-import com.isep.hpah.core.c.Niveau.Niveau2;
-import com.isep.hpah.core.c.Niveau.Niveau3;
-import com.isep.hpah.core.c.Niveau.Niveau4;
+import com.isep.hpah.core.c.Niveau.*;
 import com.isep.hpah.core.c.character.Wizard;
 import com.isep.hpah.core.c.spells.Pet;
 import lombok.*;
@@ -104,6 +101,23 @@ public class Main {
             Niveau4 niveau4 = new Niveau4();
             niveau4.combattre();
 
-            }
+            level = Level.getLevel(5);
+            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
+                    level.getLocation());
+            System.out.println(level.getInstructions());
+
+            Niveau5 niveau5 = new Niveau5();
+            niveau5.combattre();
+
+            level = Level.getLevel(6);
+            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
+                    level.getLocation());
+            System.out.println(level.getInstructions());
+
+            Niveau6 niveau6 = new Niveau6();
+            niveau6.combattre();
+
+
+        }
             }
         }
