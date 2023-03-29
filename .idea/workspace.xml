@@ -137,21 +137,7 @@
       <workItem from="1678456977047" duration="53123000" />
       <workItem from="1679059947462" duration="8002000" />
       <workItem from="1679314989605" duration="16152000" />
-      <workItem from="1679661265874" duration="11583000" />
-    </task>
-    <task id="LOCAL-00004" summary="bhg">
-      <created>1679050455755</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1679050455755</updated>
-    </task>
-    <task id="LOCAL-00005" summary="bhg">
-      <created>1679059969475</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1679059969475</updated>
+      <workItem from="1679661265874" duration="11895000" />
     </task>
     <task id="LOCAL-00006" summary="bhg">
       <created>1679063137453</created>
@@ -482,7 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680127620124</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="isep algorythme et programmation">
+      <created>1680128815290</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1680128815290</updated>
+    </task>
+    <task id="LOCAL-00054" summary="isep algorythme et programmation">
+      <created>1680128880895</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1680128880895</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
