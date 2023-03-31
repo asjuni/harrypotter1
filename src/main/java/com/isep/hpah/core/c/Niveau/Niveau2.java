@@ -73,20 +73,20 @@ public class Niveau2 {
                   if(choix == 1) {
                     int degats = (int)(Math.random() *30 ) + 1;
                     basilicPower-= degats;
-                    System.out.println(".\n=====================\nVous utilisez Croc du basilic avec Accio !.\n=====================\n");
-                    System.out.println(".\n=====================\nVous réussissez à transpercer le cœur du basilic..\n=====================\n");
-                    System.out.println(".\n=====================\nVous avez gagné le combat !.\n=====================\n");
+                    System.out.println("\n======================================\nVous utilisez Croc du basilic avec Accio !\n");
+                    System.out.println("Vous réussissez à transpercer le cœur du basilic\n");
+                    System.out.println("Vous avez gagné le combat !.\n======================================\n");
                     gagne = true;
 
-                    System.out.println("Remaining life points:\n");
+                    System.out.println("\n===============================\nRemaining life points:\n");
                     System.out.println("Wizard: " + wizardPower + "\n");
-                    System.out.println("basilic: " + basilicPower +"\n");
+                    System.out.println("basilic: " + basilicPower +"\n===============================\n");
                     System.out.println();
                 }
                 // sinon, le basilic attaque et inflige des dégâts au joueur
                 else {
                     int degats = (int)(Math.random() *30 ) + 1;
-                    System.out.println(".\n=====================\nLe basilic attaque et vous inflige " + degats + " points de dégâts..\n=====================\n");
+                    System.out.println("\nLe basilic attaque et vous inflige " + degats + " points de dégâts..\n");
                     wizardPower -= degats;
 
                 }
@@ -94,11 +94,11 @@ public class Niveau2 {
                 // Si le basilic est encore en vie, il attaque à son tour
                 if (basilicPower > 0 && !gagne) {
                     int degats = (int)(Math.random() * 30) + 1;
-                    System.out.println(".\n=====================\nC'est le tour du basilic. Il attaque et vous inflige " + degats + " points de dégâts..\n=====================\n");
+                    System.out.println("\n=====================\nC'est le tour du basilic. Il attaque et vous inflige " + degats + " points de dégâts..\n=====================\n");
                     basilicPower -= degats;
-                    System.out.println(".\n=====================\nRemaining life points:.\n=====================\n");
-                    System.out.println(".\n=====================\nWizard: " + wizardPower + ".\n=====================\n");
-                    System.out.println(".\n=====================\nbasilic: " + basilicPower +".\n=====================\n");
+                    System.out.println("\n=====================\nRemaining life points:\n");
+                    System.out.println("Wizard: " + wizardPower + "\n");
+                    System.out.println("basilic: " + basilicPower +"\n=====================\n");
                     System.out.println();
                 }
             }
