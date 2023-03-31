@@ -15,28 +15,28 @@ public class Niveau5 {
 
         // combat loop
         while (wizardPower > 0 && ombragePower > 0 && !feuxArtifice) {
-            System.out.println("\n=====================\nIt's the Wizard's turn.\n" +
+            System.out.println("\n============================\nIt's the Wizard's turn.\n" +
                     "You have one spell to attack Dolores Ombrage:\n" +
                     "1. Inanimatus Conjurus \n" +
                     "2. Locomotor Mortis\n" +
                     "3. Incendio\n" +
-                    "=====================\n");
+                    "============================\n");
             int choice = sc.nextInt();
 
             // if the Wizard casts the spell Incendio, he has a chance of obtaining fireworks
             if (choice == 3) {
                 int chance = (int)(Math.random() * 100) + 1;
                 if (chance <= 50) {
-                    System.out.println(".\n=====================\nThe Wizard casts the spell Incendio and obtains fireworks!.\n=====================\n");
+                    System.out.println("\n=====================\nThe Wizard casts the spell Incendio and obtains fireworks!.\n=====================\n");
                     feuxArtifice = true;
                 } else {
-                    System.out.println(".\n=====================\nThe spell didn't work, try again!.\n=====================\n");
+                    System.out.println("\n=====================\nThe spell didn't work, try again!.\n=====================\n");
                 }
             }
             // otherwise, the Dolores Ombrage attacks and inflicts damage to the Wizard
             else {
                 int damage = (int)(Math.random() * 10) + 1;
-                System.out.println(".\n=====================\nDolores Ombrage attacks the Wizard and inflicts " + damage + " points of damage..\n=====================\n");
+                System.out.println("\nDolores Ombrage attacks the Wizard and inflicts " + damage + " points of damage.\n");
                 wizardPower -= damage;
             }
 
@@ -49,7 +49,7 @@ public class Niveau5 {
 
             // display of remaining life points
             System.out.println(".\n=====================\nRemaining life points:");
-            System.out.println("\nWizard: " + wizardPower );
+            System.out.println("\nWizard: " + wizardPower + "\n" );
             System.out.println("Dolores Ombrage: " + ombragePower + ".\n=====================\n");
             System.out.println();
         }
