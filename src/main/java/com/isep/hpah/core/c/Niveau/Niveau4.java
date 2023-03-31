@@ -15,17 +15,17 @@ public class Niveau4 {
         while (wizardPower > 0 && peterPower > 0) {
 
             // Wizard's turn
-            System.out.println("\n=====================\nIt's the Wizard's turn.\n" +
+            System.out.println("\n==========================\nIt's the Wizard's turn.\n" +
                     "You have one spell to weaken Peter Pettigrew:\n" +
                     "1. Glacius \n\n" +
                     "2. Furunculus  \n\n" +
-                    "3. Accio \n=====================\n");
+                    "3. Accio \n==========================\n");
             int choice = sc.nextInt();
 
             // if the Wizard casts the spell Accio, he wins the combat
             if (choice == 3) {
-                System.out.println("\n=====================\nThe Wizard casts the spell Accio and draws the Portkey towards him!\n=====================\n");
-                System.out.println("\n=====================\nThe Wizard wins the combat and escapes safely!\n=====================\n");
+                System.out.println("\n==========================\nThe Wizard casts the spell Accio and draws the Portkey towards him!\n");
+                System.out.println("\nThe Wizard wins the combat and escapes safely!\n");
                 peterPower = 0;
                 System.out.println("\u001B[33mCongratulations, you have passed this level.Press ENTER to proceed to the next level.\n\n\u001B[0m");
                 sc.nextLine();
@@ -56,9 +56,9 @@ public class Niveau4 {
             }
 
             // display of remaining life points
-            System.out.println("\n=====================\nRemaining life points:\n=====================\n");
-            System.out.println("\n=====================\nWizard: " + wizardPower + "\n=====================\n");
-            System.out.println("\n=====================\nPeter Pettigrew: " + peterPower + "\n=====================\n");
+            System.out.println("\n=====================\nRemaining life points:\n");
+            System.out.println("Wizard: " + wizardPower + "\n");
+            System.out.println("Peter Pettigrew: " + peterPower + "\n=====================\n");
             System.out.println();
         }
 
