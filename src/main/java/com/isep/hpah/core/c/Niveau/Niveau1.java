@@ -38,7 +38,7 @@ public class Niveau1 {
             } else {
                 // otherwise, the troll attacks and inflicts damage to the Wizard
                 int damage = (int) (Math.random() * 10) + 1;
-                System.out.println("\n=====================\nThe troll attacks the Wizard and inflicts " + damage + " points of damage\n=====================\n");
+                System.out.println("\nThe troll attacks the Wizard and inflicts " + damage + " points of damage\n");
                 wizardPower -= damage;
             }
 
@@ -58,7 +58,7 @@ public class Niveau1 {
 
         // end of combat
         if (wizardPower <= 0) {
-            System.out.println(".\n=====================\nThe troll has defeated the Wizard!.\n=====================\n");
+            System.out.println("\nThe troll has defeated the Wizard!.\n");
         }
     }
 }
