@@ -27,7 +27,7 @@ public class Niveau4 {
                 System.out.println("\n=====================\nThe Wizard casts the spell Accio and draws the Portkey towards him!\n=====================\n");
                 System.out.println("\n=====================\nThe Wizard wins the combat and escapes safely!\n=====================\n");
                 peterPower = 0;
-                System.out.println("\u001B[33m\n=====================\nCongratulations, you have passed this level.\nPress ENTER to proceed to the next level.\n=====================\n\n\n\u001B[0m");
+                System.out.println("\u001B[33mCongratulations, you have passed this level.Press ENTER to proceed to the next level.\n\n\u001B[0m");
                 sc.nextLine();
                 sc.nextLine();
                 break;
