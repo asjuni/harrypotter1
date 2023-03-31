@@ -33,7 +33,7 @@ public class Main {
             Core wandCore = Core.chooseCore();
 
 
-                System.out.println("\n=====================\nWhat is its length?\n=====================\n");
+                System.out.println("\n=====================\nWhat is its length ?  fit a length of less than 20cm \n=====================\n");
                 int length = scanner.nextInt();
 
                 if (length < 20) {
@@ -57,7 +57,7 @@ public class Main {
 
                     // Débuter le jeu à partir du niveau 1
                     Level level = Level.getLevel(1);
-                    System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " : \n=====================\n" +
+                    System.out.println("\nNiveau " + level.getLevelNumber() + " : \n" +
                             level.getLocation());
                     System.out.println(level.getInstructions());
 
@@ -69,7 +69,7 @@ public class Main {
                 niveau1.combattre();
 
                 Level level = Level.getLevel(2);
-                System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " : \n=====================\n" +
+                System.out.println("\nNiveau " + level.getLevelNumber() + " :\n" +
                         level.getLocation());
                 System.out.println(level.getInstructions());
 
@@ -78,7 +78,7 @@ public class Main {
             niveau2.combattre();
 
             level = Level.getLevel(3);
-            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " : \n=====================\n" +
+            System.out.println("\nNiveau " + level.getLevelNumber() + " : \n" +
                     level.getLocation());
             System.out.println(level.getInstructions());
 
@@ -86,7 +86,7 @@ public class Main {
             niveau3.combattre();
 
             level = Level.getLevel(4);
-            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
+            System.out.println("\nNiveau " + level.getLevelNumber() + " :\n " +
                     level.getLocation());
             System.out.println(level.getInstructions());
 
@@ -94,7 +94,7 @@ public class Main {
             niveau4.combattre();
 
             level = Level.getLevel(5);
-            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
+            System.out.println("\nNiveau " + level.getLevelNumber() + " :\n " +
                     level.getLocation());
             System.out.println(level.getInstructions());
 
@@ -102,7 +102,7 @@ public class Main {
             niveau5.combattre();
 
             level = Level.getLevel(6);
-            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
+            System.out.println("\nNiveau " + level.getLevelNumber() + " :\n " +
                     level.getLocation());
             System.out.println(level.getInstructions());
 
@@ -110,7 +110,7 @@ public class Main {
             niveau6.combattre();
 
             level = Level.getLevel(7);
-            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
+            System.out.println("\nNiveau " + level.getLevelNumber() + " :\n " +
                     level.getLocation());
             System.out.println(level.getInstructions());
 
