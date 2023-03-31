@@ -36,7 +36,7 @@ public class Niveau2 {
                         System.out.println("\n=====================\nVous réussissez à trancher la tête du basilic.\n=====================\n");
                         System.out.println("\n=====================\nVous avez gagné le combat !\n=====================\n");
                         gagne = true;
-                        System.out.println("\u001B[33m\n=====================\nCongratulations, you have passed this level.\nPress ENTER to proceed to the next level.\n=====================\n\n\n\u001B[0m");
+                        System.out.println("\u001B[33mCongratulations, you have passed this level.Press ENTER to proceed to the next level.\n\n\u001B[0m");
                         sc.nextLine();
                         sc.nextLine();
                     } else { // Sinon, le basilic attaque et inflige des dégâts au joueur
