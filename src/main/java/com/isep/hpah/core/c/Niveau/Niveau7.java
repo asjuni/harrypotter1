@@ -17,8 +17,8 @@ public class Niveau7 {
         boolean defeatedBellatrix = false;
 
         // check if Voldemort and the Wizard share the same wand core
-        System.out.println("\n=====================\nChecking Voldemort's wand core...\n");
-        System.out.println("What is the core of your wand?");
+        System.out.println("\n============================\nChecking Voldemort's wand core...\n");
+        System.out.println("What is the core of your wand?\n============================\n");
         String wandCore = sc.nextLine();
         if (wandCore.equals("PHOENIX_FEATHER")) {
             sameCore = true;
@@ -91,8 +91,8 @@ public class Niveau7 {
 
                     // display of remaining life points
                     System.out.println(".\n=====================\nRemaining life points:\n");
-                    System.out.println("Wizard: " + wizardPower );
-                    System.out.println("Voldemort: " + voldemortPower );
+                    System.out.println("Wizard: " + wizardPower +"\n");
+                    System.out.println("Voldemort: " + voldemortPower +"\n");
                     System.out.println("Bellatrix Lestrange: " + bellatrixPower + ".\n=====================\n");
                     System.out.println();
                 }
