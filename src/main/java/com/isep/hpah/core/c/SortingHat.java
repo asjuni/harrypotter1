@@ -1,9 +1,8 @@
 package com.isep.hpah.core.c;
 import lombok.*;
-import static com.isep.hpah.core.c.House.maison;
 @Getter@Setter
-public class SortingHat extends House{
-    static {
+public class SortingHat extends House {
+    public SortingHat() {
         System.out.println("\n=====================\n a class you will be assigned from n " +
                 "among the 4 four by the magic hats \n=====================\n" +
                 "Gryffindor \n" +
@@ -11,7 +10,7 @@ public class SortingHat extends House{
                 "Serpentard \n" +
                 "Serdaigle \n=====================\n");
         maison();
-
     }
 }
+
 
