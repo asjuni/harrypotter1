@@ -32,7 +32,7 @@ public class Niveau1 {
                 System.out.println("\nThe troll is lifted in the air and falls heavily to the ground.\n");
                 System.out.println("\nThe Wizard wins the combat!\n=====================\n");
                 trollPower = 0;
-                System.out.println("\u001B[33m\n=====================\nCongratulations, you have passed this level.\nPress ENTER to proceed to the next level.\n=====================\n\n\n\u001B[0m");
+                System.out.println("\u001B[33mCongratulations, you have passed this level.Press ENTER to proceed to the next level.\n\n\u001B[0m");
                 sc.nextLine();
                 sc.nextLine();
             } else {
