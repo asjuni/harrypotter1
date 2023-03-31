@@ -25,7 +25,7 @@ public class Main {
 
         String name = scanner.nextLine();
 
-        if (name.length() >= 2 && name.length() <= 10) {
+
 
             Pet pet = Pet.choosePet();
 
@@ -44,12 +44,9 @@ public class Main {
                     // Assignation de résidence au hasard par le chapeau magique
                     SortingHat sortingHat = new SortingHat();
 
-
                     System.out.println("\n=====================\nYour registration is complete!\n=====================\n");
 
-                    System.out.println("\033[34m" + "==========================" + "\033[0m");
                     System.out.print("\033[34m" + "BEGIN THE GAME" + "\033[0m");
-                    System.out.println("\033[34m" + "\n==========================" + "\033[0m");
 
                     System.out.println("\n=====================\nYou have 8 magical potions in your possession, " +
                             "including 4 healing potions and 4 strength potions.\n=====================\n");
@@ -76,7 +73,6 @@ public class Main {
                         level.getLocation());
                 System.out.println(level.getInstructions());
 
-                basilic();
 
             Niveau2 niveau2 = new Niveau2();
             niveau2.combattre();
@@ -86,8 +82,6 @@ public class Main {
                     level.getLocation());
             System.out.println(level.getInstructions());
 
-            detraqueur();
-
             Niveau3 niveau3 = new Niveau3();
             niveau3.combattre();
 
@@ -95,8 +89,6 @@ public class Main {
             System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
                     level.getLocation());
             System.out.println(level.getInstructions());
-
-            peter();
 
             Niveau4 niveau4 = new Niveau4();
             niveau4.combattre();
@@ -117,7 +109,21 @@ public class Main {
             Niveau6 niveau6 = new Niveau6();
             niveau6.combattre();
 
+            level = Level.getLevel(7);
+            System.out.println("\n=====================\nNiveau " + level.getLevelNumber() + " :\n=====================\n " +
+                    level.getLocation());
+            System.out.println(level.getInstructions());
 
+            Niveau7 niveau7 = new Niveau7();
+            niveau7.combattre();
+
+
+            System.out.println("==================================");
+            System.out.println("Félicitations " + name + ", vous avez terminé le jeu !");
+            System.out.println("Vous avez remporté tous les sorts et prouvé que vous êtes un sorcier accompli !");
+            System.out.println("Merci d'avoir joué, à bientôt !");
+            System.out.println("==================================\n");
+
+            System.out.println(" \uD83C\uDF86 \uD83C\uDF89 \uD83C\uDF8E \uD83C\uDF8A \uD83C\uDF83 \uD83C\uDF87 \n");
         }
             }
-        }
